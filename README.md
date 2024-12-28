@@ -186,6 +186,10 @@ The output will be the string you need to use in the `esxi_password` variable at
 .\ovftool.exe --name=cloudbuilder --X:injectOvfEnv --acceptAllEulas --noSSLVerify --diskMode=thin --datastore="datastore1" --net:'Network 1=VM Network' --powerOn --prop:guestinfo.ROOT_PASSWORD=VMwareDemo123! --prop:guestinfo.ADMIN_PASSWORD=VMwareDemo123! --prop:guestinfo.ip0=172.16.10.2 --prop:guestinfo.netmask0=255.255.255.0 --prop:guestinfo.gateway=172.16.10.1 --prop:guestinfo.hostname=cloudbuilder --prop:guestinfo.DNS=172.16.9.2 --prop:guestinfo.ntp=172.16.9.2 .\VMware-Cloud-Builder-5.1.1.0-23480823_OVF10.ova  vi://root:VMwareDemo123!@172.16.11.101
 ```
 
+## Examples
+
+To view examples for how you can leverage this module, please see the [examples](examples/) directory.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
